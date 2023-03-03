@@ -1,0 +1,62 @@
+/**********header************/
+.my_header {
+    width: 100%;
+    height: 77px;
+    background: #fff;
+    border-bottom: 1px solid #9d9895;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+header {
+    width: 1251px;
+    height: 78px;
+    /*background: pink;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header>a {
+    float: left;
+}
+
+header>a img {
+    width: 217px;
+    height: 45px;
+    margin-top: 15px;
+}
+
+header .city {
+    float: left;
+    margin-top: 29px;
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+header .city>img {
+    width: 11px;
+    height: 17px;
+    margin-left: 31px;
+    margin-right: 7px;
+}
+
+header .city>a {
+    padding: 9px;
+    background: #cccccc;
+    color: #fff;
+    margin-left: 13px;
+}
+
+header .nav {
+    float: left;
+    height: 78px;
+    line-height: 77px;
+    margin-left: 200px;
+}
+
+header .nav>a {
+    color: #9a3c0a;
+    margin-right: 35px;
+}

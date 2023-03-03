@@ -1,0 +1,68 @@
+.banner {
+    height: 600px;
+    background-color: aquamarine;
+}
+
+.banner>a img {
+    width: 100%;
+    height: 100%;
+}
+
+.classes {
+    width: 100%;
+    height: 300px;
+}
+
+.classes div {
+    width: 33.3%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    /* 属性规定元素中的文本的水平对齐方式 */
+    /* 该元素的内容若超出了给定的宽度和高度属性，那么超出的部分将会被隐藏 */
+    overflow: hidden;
+}
+
+.classes div:nth-child(1) {
+    background-color: #9dc6d8;
+}
+
+.classes div:nth-child(2) {
+    background-color: #688da0;
+}
+
+.classes div:nth-child(3) {
+    background-color: #9dc6d8;
+}
+
+.classes div img {
+    width: 180px;
+    height: 180px;
+    margin-top: 50px;
+}
+
+.classes div a:nth-of-type(1) {
+    /* margin-bottom: 60px; */
+    display: block;
+}
+
+
+.classes div a:nth-of-type(2) {
+    margin-top: 1px;
+    /* 字体尺寸 font-size */
+    font-size: 14px;
+    font-weight: bold;
+
+    /* border-bottom 简写属性把下边框的所有属性设置到一个声明中。 */
+    border-bottom: 1px solid #1d181c;
+    /* padding-bottom 属性设置元素的下内边距（底部空白 */
+    padding-bottom: 1px;
+
+    /* inline-block 用于水平而不是垂直地显示列表项 */
+    display: inline-block;
+
+}
+
+.classes div p {
+    font-size: 12px;
+}
